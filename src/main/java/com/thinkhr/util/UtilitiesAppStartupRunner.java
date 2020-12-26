@@ -13,6 +13,7 @@ public class UtilitiesAppStartupRunner implements CommandLineRunner {
 	@Autowired
 	private WordUtilService wordUtilService;
 
+ 
 	@Override
 	public void run(String... args) throws Exception {
 		wordUtilService.findRandomWord();
